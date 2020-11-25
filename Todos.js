@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import firestore from '@react-native-firebase/firestore';
 import {Appbar, TextInput, Button} from 'react-native-paper';
+import {ScrollView, Text} from 'react-native';
 
 function Todos() {
   const [todo, setTodo] = useState('');
